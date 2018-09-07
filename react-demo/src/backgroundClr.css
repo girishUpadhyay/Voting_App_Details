@@ -1,0 +1,33 @@
+.backgrndcolor{
+    background-image: url("https://images.all-free-download.com/images/graphicthumb/3d_abstract_background_dots_connection_decoration_polygon_draft_6829548.jpg");
+    width:auto;
+    height:100vh;
+    overflow-y: hidden;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.backgrndaadmin{
+    background-image: url("https://newevolutiondesigns.com/images/freebies/white-wallpaper-24.jpg");
+    width:auto;
+    /* height:100vh; */
+    overflow-y: hidden;
+    /* background-repeat: no-repeat; */
+    background-size:cover;
+}
+
+@media screen and (max-width: 600px) {
+    .loginDiv {
+     width: 90%;
+     height: 40%;
+    
+    }
+    .loginfont{
+        font-size:22px;
+        font-weight: bolder
+    }
+    .loginButton{
+       margin-top: 50px;
+
+    }
+  }

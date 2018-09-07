@@ -1,0 +1,96 @@
+/* For mobile phones: */
+/* [class*="col-"] {
+    width: 100%;
+   
+    
+    
+  } */
+  .example{
+
+    font-size: 18px
+  }
+
+  .fontSizes{
+    font-size: 18px;
+  }
+  .welcomemessage{
+    font-size: 14px;
+    margin-left: 3px;
+
+  }
+
+  @media screen and (max-width: 455px) {
+    .fontSizes{
+      font-size: 12px;
+    
+    }
+
+    .qtitleSize{
+      font-size:10px;
+      margin-left: -41px;
+
+    }
+    .fontSizeUserWelcome{
+      font-size: 12px;
+    }
+    .welcomemessage{
+      font-size: 14px;
+      margin-left: 3px;
+    /* text-align: center;  */
+    }
+
+    .postQuestion{
+      font-size: 14px;
+    }
+
+    .example {
+      font-size: 14px;
+      width: 100%
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    body{
+      width:100%;
+    }
+
+
+    .postQuestion{
+      font-size: 30px;
+      font-weight: bold;
+    }
+
+.welcomemessage{
+  font-size:22px;
+  margin-left: 3px;
+  font-weight: bolder; 
+}
+
+    .fontSizes{
+      font-size: 18px;
+    }
+
+    .fontSizeUserWelcome{
+
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .example{
+        font-size: 16px;
+    }
+    .example1{
+      font-size: 20px
+    }
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
